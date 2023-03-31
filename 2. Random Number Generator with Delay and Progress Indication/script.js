@@ -10,11 +10,6 @@ function sub() {
 
         if (countdown < 0) {
             clearInterval(countdownInterval);
-
-
-
-
-
             let a = Math.floor(Math.random() * 101)
             document.getElementById("num").innerHTML = `Number is ${a}`
             console.log(a);
@@ -23,4 +18,6 @@ function sub() {
     }, 1000)
 }
 
-setInterval(() => sub(), 3000)
+let btn = document.getElementById("sub")
+
+btn.addEventListener("click", setInterval(() => sub(), 3000))
