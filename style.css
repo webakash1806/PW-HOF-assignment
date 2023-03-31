@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #edaeae;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inp-main {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+}
+
+.inp-main input {
+    padding: 5px;
+    width: 15rem;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 20px;
+}
