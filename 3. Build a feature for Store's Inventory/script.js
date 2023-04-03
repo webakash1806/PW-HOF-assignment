@@ -1,4 +1,3 @@
-
 let items = {
     item1: 50,
     item2: 18,

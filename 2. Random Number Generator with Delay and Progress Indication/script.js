@@ -5,7 +5,7 @@ function sub() {
     // Display the countdown message every second until the random number is generated
     let countdown = delayTime;
     const countdownInterval = setInterval(() => {
-        document.getElementById("delay").innerHTML = `${countdown} seconds remaining in generating new Number`
+        document.getElementById("delay").innerHTML = `Generating new number in ${countdown} seconds `
         countdown--;
 
         if (countdown < 0) {
